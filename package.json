@@ -1,0 +1,16 @@
+{
+  "name": "namida",
+  "version": "1.0.0",
+  "description": "A simple CSS for styling semantic HTML.",
+  "main": "namida.css",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kemar/namida.git"
+  },
+  "author": "Kemar",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/kemar/namida/issues"
+  },
+  "homepage": "https://kemar.github.io/namida"
+}
