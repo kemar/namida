@@ -2,6 +2,22 @@
 
 Namida is a simple CSS for styling semantic HTML.
 
+[Demo](https://kemar.github.io/namida).
+
+## Installation
+
+**Manually**:
+
+```bash
+wget "https://raw.githubusercontent.com/kemar/namida/master/namida.css"
+```
+
+**CDN**:
+
+```html
+<link rel="stylesheet" href="https://unpkg.com/namida/namida.css" type="text/css">
+```
+
 ## See also
 
 - [How various CSS frameworks style bare HTML elements](https://github.com/kemar/html-elements)
