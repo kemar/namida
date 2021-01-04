@@ -214,7 +214,7 @@ menu li:not(:last-child) {
 
 dl {
     display: grid;
-    grid-template-columns: max-content auto;
+    grid-template-columns: minmax(1fr, min-content) minmax(1fr, min-content);
     border-top: var(--border-width-default) solid var(--border-color-default);
 }
 
