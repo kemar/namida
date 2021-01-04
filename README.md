@@ -12,6 +12,12 @@ Namida is a simple CSS for styling semantic HTML.
 wget "https://raw.githubusercontent.com/kemar/namida/master/namida.css"
 ```
 
+Then:
+
+```html
+<link rel="stylesheet" href="namida.css" type="text/css">
+```
+
 **CDN**:
 
 ```html
