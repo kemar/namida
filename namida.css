@@ -346,10 +346,6 @@ label {
     cursor: pointer;
 }
 
-label + textarea {
-    vertical-align: top;
-}
-
 fieldset {
     /*
     Width and min-width are required here to respect 100% textarea max-width within fieldset.
@@ -413,6 +409,15 @@ input[type="file"] {
 
 input[type=file]::-webkit-file-upload-button {
     vertical-align: top;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin-top: 0;
+    margin-bottom: 0;
+    vertical-align: middle;
+    position: relative;
+    top: -1px;
 }
 
 textarea {
