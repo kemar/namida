@@ -60,13 +60,12 @@
 
     --border-width-default:  1px;
     --border-radius-default: 2px;
-    --border-color-default:  var(--color-tag-border);
 
     /* Tables.
     --------------------------------------------------------------------------- */
 
     --table-border-width: var(--border-width-default);
-    --table-border-color: var(--border-color-default);
+    --table-border-color: var(--color-tag-border);
     --table-padding-x:    var(--padding-x-default);
     --table-padding-y:    var(--padding-y-default);
 
@@ -74,7 +73,7 @@
     --------------------------------------------------------------------------- */
 
     --input-background-color: var(--color-tag-background);
-    --input-border-color:     var(--border-color-default);
+    --input-border-color:     var(--color-tag-border);
     --input-border-radius:    var(--border-radius-default);
     --input-border-width:     var(--border-width-default);
     --input-line-height:      var(--line-height-default);
@@ -215,20 +214,20 @@ menu li:not(:last-child) {
 dl {
     display: grid;
     grid-template-columns: minmax(1fr, min-content) minmax(1fr, min-content);
-    border-top: var(--border-width-default) solid var(--border-color-default);
+    border-top: var(--border-width-default) solid var(--color-tag-border);
 }
 
 dt {
     grid-column-start: 1;
     font-weight: var(--font-weight-medium);
     text-align: right;
-    border-bottom: var(--border-width-default) solid var(--border-color-default);
+    border-bottom: var(--border-width-default) solid var(--color-tag-border);
     padding-right: var(--spacing-default);
 }
 
 dd {
     grid-column-start: 2;
-    border-bottom: var(--border-width-default) solid var(--border-color-default);
+    border-bottom: var(--border-width-default) solid var(--color-tag-border);
     margin-left: 0;
 }
 
@@ -240,7 +239,7 @@ pre {
     max-width: 100%;
     overflow: auto;
     background: var(--color-tag-background);
-    border: var(--border-width-default) solid var(--border-color-default);
+    border: var(--border-width-default) solid var(--color-tag-border);
     border-radius: var(--border-radius-default);
 }
 
@@ -250,7 +249,7 @@ code {
     font-size: 80%;
     padding: 1px 6px;
     background: var(--color-tag-background);
-    border: var(--border-width-default) solid var(--border-color-default);
+    border: var(--border-width-default) solid var(--color-tag-border);
     border-radius: var(--border-radius-default);
 }
 
@@ -279,7 +278,7 @@ kbd {
 blockquote {
     padding: var(--padding-x-default) var(--padding-y-default);
     background: var(--color-tag-background);
-    border-left: 5px solid var(--border-color-default);
+    border-left: 5px solid var(--color-tag-border);
     margin-left: 0;
     margin-right: 0;
 }
@@ -334,7 +333,7 @@ figure {
 
 hr {
     width: 100%;
-    border: var(--border-width-default) solid var(--border-color-default);
+    border: var(--border-width-default) solid var(--color-tag-border);
     border-width: var(--border-width-default) 0 0 0;
 }
 
@@ -471,7 +470,7 @@ input[type="button"]:enabled:hover {
 details {
     padding: var(--padding-x-default) var(--padding-y-default);
     background: var(--color-tag-background);
-    border: var(--border-width-default) solid var(--border-color-default);
+    border: var(--border-width-default) solid var(--color-tag-border);
     border-radius: var(--border-radius-default);
     margin-bottom: var(--spacing-default);
 }
