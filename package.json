@@ -1,6 +1,6 @@
 {
   "name": "namida",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple CSS for styling semantic HTML.",
   "main": "namida.css",
   "repository": {
