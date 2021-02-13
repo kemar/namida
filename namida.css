@@ -193,6 +193,14 @@ h6 {
     margin: var(--font-size-h6) 0 calc(var(--font-size-h6) / 3);
 }
 
+/* Lists.
+--------------------------------------------------------------------------- */
+
+/* For optimal readability, add additonal space between the items in the lists. */
+li {
+    margin: var(--padding-x-default) 0;
+}
+
 /* iframe.
 --------------------------------------------------------------------------- */
 
